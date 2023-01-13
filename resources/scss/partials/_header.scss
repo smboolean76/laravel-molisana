@@ -1,0 +1,11 @@
+.menu-item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.25rem;
+    color: inherit;
+    font-size: 1.25rem;
+
+    &--active {
+        background-color: var(--main-color);
+    }
+}
